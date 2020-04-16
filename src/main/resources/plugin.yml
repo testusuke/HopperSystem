@@ -1,0 +1,7 @@
+name: HopperSystem
+version: @version@
+author: testusuke
+main: net.testusuke.hoppersystem.HopperSystem
+commands:
+  hs:
+  hoppersystem:
