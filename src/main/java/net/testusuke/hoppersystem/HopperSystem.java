@@ -36,6 +36,7 @@ public final class HopperSystem extends JavaPlugin {
         getCommand("hoppersystem").setExecutor(new HS_command(this));
         //  Event
         getServer().getPluginManager().registerEvents(new HopperMovingEvent(this),this);
+        getServer().getPluginManager().registerEvents(new HopperBuildEvent(this),this);
     }
 
     @Override
